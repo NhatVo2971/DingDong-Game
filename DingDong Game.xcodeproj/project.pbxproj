@@ -11,6 +11,8 @@
 		2911608E2A990C9B00EA33BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911608D2A990C9B00EA33BD /* ContentView.swift */; };
 		291160902A990C9B00EA33BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2911608F2A990C9B00EA33BD /* Assets.xcassets */; };
 		291160932A990C9B00EA33BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291160922A990C9B00EA33BD /* Preview Assets.xcassets */; };
+		2911609D2A990D9500EA33BD /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911609C2A990D9500EA33BD /* Memory.swift */; };
+		2911609F2A99111200EA33BD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911609E2A99111200EA33BD /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2911608D2A990C9B00EA33BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2911608F2A990C9B00EA33BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291160922A990C9B00EA33BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2911609C2A990D9500EA33BD /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		2911609E2A99111200EA33BD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		2911607F2A990C9A00EA33BD = {
 			isa = PBXGroup;
 			children = (
+				291160992A990D2800EA33BD /* View */,
 				2911608A2A990C9B00EA33BD /* DingDong Game */,
 				291160892A990C9B00EA33BD /* Products */,
 			);
@@ -52,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				2911608B2A990C9B00EA33BD /* DingDong_GameApp.swift */,
-				2911608D2A990C9B00EA33BD /* ContentView.swift */,
 				2911608F2A990C9B00EA33BD /* Assets.xcassets */,
 				291160912A990C9B00EA33BD /* Preview Content */,
 			);
@@ -65,6 +69,16 @@
 				291160922A990C9B00EA33BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		291160992A990D2800EA33BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2911608D2A990C9B00EA33BD /* ContentView.swift */,
+				2911609C2A990D9500EA33BD /* Memory.swift */,
+				2911609E2A99111200EA33BD /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2911609D2A990D9500EA33BD /* Memory.swift in Sources */,
 				2911608E2A990C9B00EA33BD /* ContentView.swift in Sources */,
+				2911609F2A99111200EA33BD /* CardView.swift in Sources */,
 				2911608C2A990C9B00EA33BD /* DingDong_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
